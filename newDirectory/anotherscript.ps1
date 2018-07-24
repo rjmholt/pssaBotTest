@@ -1,1 +1,1 @@
-Write-Host "I don't care!"
+Write-Output "Hi" | ? { $_.Length -gt 1 }
