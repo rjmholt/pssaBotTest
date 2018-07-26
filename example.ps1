@@ -1,4 +1,4 @@
-Write-Output "Hello, world!" | % { $_ }
+Write-Output "Hello, world!" | % { $_ + "Banana" }
 
 Test-Banana | ? { 3 -gt 8 }
 
