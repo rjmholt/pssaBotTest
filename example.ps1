@@ -6,4 +6,4 @@ gci | Write-Verbose
 
 gps
 
-<>
+^ banana
