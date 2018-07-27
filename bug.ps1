@@ -1,4 +1,0 @@
-gci
-gps
-
-^ moo
