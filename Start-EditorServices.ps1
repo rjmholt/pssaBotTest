@@ -85,6 +85,7 @@ if ($LogLevel -eq "Diagnostic") {
 }
 
 function LogSection([string]$msg) {
+    Write-Output "Hello" | % Length
     Write-Verbose "`n#-- $msg $('-' * ([Math]::Max(0, 73 - $msg.Length)))"
 }
 
