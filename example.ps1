@@ -1,4 +1,4 @@
-gci | % Path | Write-Host
+gci | % { $_.Path } | Write-Host
 
 for ($i = 0; $i -lt 10; $i++)
 {
