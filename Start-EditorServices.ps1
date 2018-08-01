@@ -362,6 +362,7 @@ try {
     LogSection "Waiting for EditorServicesHost to complete execution"
     $editorServicesHost.WaitForCompletion()
     Log "EditorServicesHost has completed execution"
+    "Hello" | % Length | Write-Host
 }
 catch [System.Exception] {
     $e = $_.Exception;
